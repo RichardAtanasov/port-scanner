@@ -1,4 +1,4 @@
-# pip install pyfiglet
+# pip install pyfiglet if not installed
 import pyfiglet
 import socket
 import subprocess
@@ -10,7 +10,6 @@ subprocess.call('clear', shell=True)
 ascii_banner = pyfiglet.figlet_format("Icky Scanner")
 print(ascii_banner,)
 print("by cIpHeR_sHaDoW")
-# Print a nice banner with information on which host we are about to scan
 print("_" * 60)
 print(" " * 60)
 
